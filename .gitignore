@@ -1,0 +1,20 @@
+﻿# === Prompt Vault safety rules ===
+
+# secrets / credentials
+*.key
+*.pem
+*.pfx
+*.p12
+*.env
+.env.*
+secrets/
+private/
+
+# API / token like names
+**/*token*
+**/*apikey*
+**/*api_key*
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
